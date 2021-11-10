@@ -1,0 +1,55 @@
+body {
+    color: #222;
+    font-family: sans-serif;
+    text-align: center;
+}
+body,button,h2,div,input {
+    padding: 0;
+    margin: 0;
+}
+.nombres {
+    max-width: 600px;
+    margin: auto;
+    margin-top: 40px;
+}
+#nombre {
+    padding: 4px 8px;
+}
+#add {
+    padding: 4px 8px;
+}
+.add-names {
+    margin-top: 40px;
+}
+.nombre {
+    display: grid;
+    grid-template-columns: minmax(100px,300px) 1fr;
+    border-top: 1px solid #003049;
+}
+.nombre h2 {
+    padding: 6px;
+    color: #f77f00;
+    outline-color: #e4943f;
+}
+.options {
+    display: flex;
+    justify-self: end;
+}
+.options button {
+    background: transparent;
+    border: none;
+    margin: 4px 10px;
+    outline: none;
+}
+.delete:hover {
+    color: #999;
+}
+.posible {
+    color: #e63946;
+}
+.posible:hover {
+    color: #999;
+}
+.imposible {
+    color: #ccc;
+}
